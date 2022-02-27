@@ -1,0 +1,48 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Colores</title>
+		<link href="efectos02.css" rel="stylesheet" type="text/css">
+		<script src="tarea_colores.js" type="text/JavaScript"></script>
+	</head>
+	<body><center>
+		<p class="título24">Cambiar propiedades de los elementos</p>
+		<br>
+		<table border="3" width="60%">
+		<form name="f_colores">
+			<tr align="center">
+				<td><p><b>Color Fondo</b></p></td>
+				<td><p><b>Color Texto</b></p></td>
+				<td><p><b>Resultado</b></p></td>
+			</tr>
+			<tr align="center">
+				<td align="center">
+					<select name="c_fondo" class="campo">
+						<option value=1>Aqua</option>
+						<option value=2>Vino</option>
+						<option value=3>Amarillo mostaza</option>
+						<option value=4>Rosa claro</option>
+					</select>
+				</td>
+				<td align="center">
+					<select name="c_texto" class="campo">
+						<option value=1>Blanco</option>
+						<option value=2>Negro</option>
+						<option value=3>Gris</option>
+						<option value=4>Caqui</option>
+				</td>
+				<td>
+					<textarea name="res" class="campo" cols="10" rows="10">
+						Este es el resultado visual de tu selección						
+					</textarea>
+				</td>
+			</tr>
+			<tr align="center">
+				<td colspan="3">
+					<input name="b_ejecuta" type="button" class="botón" value="Ejecutar" onclick="ejecutar(10)">
+				</td>
+			</tr>
+		</form>
+		</table>
+	</center></body>
+</html>
